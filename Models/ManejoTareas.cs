@@ -3,7 +3,6 @@ namespace tl2_tp07_2023_adanSmith01;
 public class ManejoTareas
 {
     private AccesoADatos accesoTareas;
-    private List<Tarea> listaTareas;
     public List<Tarea> ListaTareas {get => accesoTareas.ObtenerLista();}
 
     public ManejoTareas (AccesoADatos accesoTareas){

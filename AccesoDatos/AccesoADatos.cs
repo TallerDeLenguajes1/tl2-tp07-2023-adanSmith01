@@ -19,7 +19,6 @@ public class AccesoADatos
 
     public bool GuardarTareas(List<Tarea> listaTareas){
         string rutaArchivo = "tareas.json";
-        FileInfo f = new FileInfo(rutaArchivo);
         if(listaTareas.Count == 0){
             return false;
         } else{
